@@ -1,0 +1,61 @@
+.pricing-page {
+  margin-top: 100px;
+  margin-bottom: 100vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  font-size: 26pt;
+}
+
+.calculator-wrapper {
+  text-align: center;
+}
+
+.solution-dropdown {
+  height: 45px;
+  padding: 10 10;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: 14pt;
+  border: 1px solid black;
+}
+
+.energy-usage-field {
+  height: 45px;
+  padding: 10 10;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: 14pt;
+}
+
+.submit-button {
+  height: 45px;
+  padding: 20px 20px;
+  border-radius: 20px;
+  background-color: rgb(88, 249, 88);
+  color: white;
+  border: none;
+  font-size: 16pt;
+  transition: box-shadow 0.5s ease;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.submit-button:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.163);
+}
+
+.system-size-field {
+  height: 30px;
+  margin: 10px;
+  padding: 20 20;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.rotor-swept-field {
+  height: 30px;
+  margin: 10px;
+  padding: 20 20;
+  border-radius: 10px;
+  border: 1px solid black;
+}

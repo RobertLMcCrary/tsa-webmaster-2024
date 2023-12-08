@@ -1,0 +1,64 @@
+/* Contact.css */
+
+.wrapper {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .wrapper h1 {
+    font-size: 36pt;
+    margin-bottom: 0;
+  }
+  
+  .contact-form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    font-size: 24pt;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    max-width: 100%;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+  }
+  
+  .input-text-field {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .input-text-field:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .submit-button {
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: box-shadow 0.5s ease;
+    color: white;
+    background-color: rgb(86, 255, 48);
+    border: none;
+    font-size: 16pt;
+    font-weight: bold;
+  }
+
+  .submit-button:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.62);
+  }
+
+  /* Add your other styles as needed */
+  
