@@ -5,12 +5,7 @@ import Solutions from "./Solutions";
 
 function Home() {
 
-  const handleClick = (page) => {
-    //function that changes the page
-    //will be called if the first learn more button or the calculate now button is clicked
-    //need to switch to react router
-  }
-
+  
   return (
     <div className="homepage">
       <header className="header">
