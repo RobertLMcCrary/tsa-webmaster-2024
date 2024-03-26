@@ -6,7 +6,7 @@ function Navbar() {
 
     return (
         <nav className='navbar'>
-            <h1><a href='/Home' className='navbar-header'>Green Living Solutions</a></h1>
+            <h1><a href='/Home' className='navbar-header'>Eco Living Solutions</a></h1>
             <ul className='nav-menu'>
                 <li className='nav-item'>
                     <a href='/Home' className='nav-links' >

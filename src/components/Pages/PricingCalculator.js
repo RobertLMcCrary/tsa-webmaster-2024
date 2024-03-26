@@ -4,9 +4,7 @@ import './PageStyles/Pricing.css';
 function PricingCalculator() {
   const greenEnergySolutions = [
     {value: "solar", label: "Solar Panels"},
-    {value: "wind", label: "Wind Turbines"},
-    {value: "geothermal", label: "Geothermal Heating Pump"},
-    {value: "electric vehicle", label: "EV + Charging Station"}
+    {value: "wind", label: "Wind Turbines"}
   ]
 
   const [energyUsage, setEnergyUsage] = useState();
@@ -58,19 +56,11 @@ function PricingCalculator() {
     switch (selectedSolution) {
       case 'solar':
         updatedEnergyUsage = (systemSize * 8) * 30;
-        calculatedSavings = updatedEnergyUsage * 0.13;
+        calculatedSavings = updatedEnergyUsage * electircityRate;
         break;
 
       case 'wind':
         updatedEnergyUsage = rotorSweptArea * 0.13;
-        
-        break;
-
-      case 'geothermal':
-        
-        break;
-
-      case 'electric vehicle':
         
         break;
 

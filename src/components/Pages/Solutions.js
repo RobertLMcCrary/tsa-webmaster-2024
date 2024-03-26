@@ -5,7 +5,7 @@ function Solutions() {
   return (
     <div className="solutions-page">
             <div className="other-solutions-section">
-                <h3>Other Green Energy Initiatives:</h3>
+                <h1>Other Green Energy Initiatives:</h1>
                 <div className="solution-wrapper">
                     <h3>Geothermal Power</h3>
                     <div className="solution-paragraph">
