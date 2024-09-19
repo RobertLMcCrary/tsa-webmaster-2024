@@ -5,38 +5,25 @@ import Solutions from "./components/Pages/Solutions";
 import Pricing from "./components/Pages/Pricing";
 import Contact from "./components/Pages/Contact";
 import Footer from "./components/Footer";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
-    let page = window.location.pathname;
 
-    switch (page) {
-        case "/Home":
-            page = <Home />;
-            break;
-
-        case "/Solutions":
-            page = <Solutions />;
-            break;
-            
-        case "/Pricing":
-            page = <Pricing />;
-            break;
-            
-        case "/Contact":
-            page = <Contact />;
-            break;   
-
-        default:
-            page = <Home />
-            break;    
-    }
 
     return (
-        <div className="App">
-            <Navbar />
-            {page}
-            <Footer />
-        </div>
+        <Router>
+            <div className="App">
+                <Navbar />
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/home" element={<Home />} />
+                    <Route path="/solutions" element={<Solutions />} />
+                    <Route path="/pricing" element={<Pricing />} />
+                    <Route path="/contact" element={<Contact />} />
+                </Routes>
+                <Footer />
+            </div>
+        </Router>
     );
 }
 
